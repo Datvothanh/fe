@@ -1,0 +1,61 @@
+.post{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.post__top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post__topLeft {
+    display: flex;
+    align-items: center;
+}
+
+.postInfo {
+    margin-left:10px ;
+}
+
+
+
+.postInfo p {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.postInfo p svg{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.post__middle p {
+    margin: 20px 0px;
+}
+
+.post__middle img {
+    width: 100%;
+}
+
+.post__bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.post__bottomOptions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    gap: 10px;
+}
+
+.post__bottomOptions p{
+ margin-top: 12px;
+}

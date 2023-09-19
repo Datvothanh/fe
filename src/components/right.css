@@ -1,0 +1,77 @@
+.widget {
+    margin-top: 0px;
+    height: 90vh;
+    position: sticky;
+    top: 0 ; 
+    flex: 0.28;
+    overflow-y: hidden; /* Hide the scrollbar initially */
+  /* Other sidebar styles */
+
+  /* Apply styles when hovering */
+  &:hover {
+    overflow-y: scroll; /* Show scrollbar on hover */
+  }
+}
+.widget::-webkit-scrollbar{
+    width: 10px;
+    
+}
+.widget::-webkit-scrollbar-thumb {
+    background-color: #C3C6CB;
+    border-radius: 5px;
+}
+
+.widget__header {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     gap: 220px; 
+    
+}
+
+
+.widget__header__connect {
+    display: flex;
+    align-items: center;
+   
+    margin-bottom: 20px;
+     gap: 147px; 
+    
+}
+
+
+.widget__bodyOptions {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.widget__bodyOptions h6{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.widget__headerLeft h6 {
+    color: #737679;
+}
+
+.ml10{
+    margin-left: 10px;
+}
+
+.ml10 p {
+    font-size: 12px;
+    color: gray;
+}
+.ml10 svg {
+    font-size: 16px;
+    color: gray;
+    margin-right: 10px;
+}
+
+.widget__headerRight svg {
+    margin: 0px 10px;
+    
+}

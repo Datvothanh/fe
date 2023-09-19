@@ -1,0 +1,23 @@
+.sidebar{
+    margin-top: 20px;
+    flex: 0.28;
+    position: sticky;
+    top: 20px;
+    overflow-y: hidden; /* Hide the scrollbar initially */
+  /* Other sidebar styles */
+
+  /* Apply styles when hovering */
+  &:hover {
+    overflow-y: scroll; /* Show scrollbar on hover */
+  }
+  
+}
+.sidebar::-webkit-scrollbar{
+    width: 10px;
+    
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #C3C6CB;
+    border-radius: 5px;
+}
+

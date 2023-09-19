@@ -1,0 +1,8 @@
+.feed {
+    flex: 1;
+    padding: 0px 145px 0px 145px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    
+}

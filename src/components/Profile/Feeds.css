@@ -1,0 +1,72 @@
+.Main-Feeds-Container{
+    height: 100%;
+    width: 90%;
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: 1rem 1rem 2rem 1rem lightgray;
+    border-radius: 0.5rem;
+    .feed-input-container{
+        display: flex;
+        align-items: center;
+        .input-container{
+            background: lightgray ;
+            border-radius: 1rem;
+           
+            margin-left: 0.5rem;
+            width: 100%;
+            #Post-Desc{
+                width: 100%;
+                background: transparent;
+                border: none;
+                height: 2rem;
+                line-height: 1.8rem;
+                margin-left: 0.2rem;
+                padding: 0.2rem;
+                font-size: 1rem;
+                &:focus{
+                    outline: none;
+                    border: none;
+                }
+                &::placeholder{
+                    color: black;
+                }
+            }
+        }
+    }
+    .feed-post-button-container{
+        text-align: right;
+        .MuiButton-root{
+            background: #7affe0;
+            color: black;
+            border-radius: 0.5rem;
+            margin-top: 0.8rem;
+        }
+    }
+    #hr-id{
+        height: 2px;
+        background-color: lightgray;
+        border: none;
+        width: 98%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .iconButtons_actions, .icon_button_actions{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.7rem;
+
+        .icon_button_actions{
+            margin: auto;
+            .MuiIconButton-root{
+                color: red;
+            }
+                #AddAPhoto{
+                    color: green;
+                }
+                #Flag{
+                    color: blue;
+                }
+        }
+    }
+}

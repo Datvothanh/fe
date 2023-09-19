@@ -1,0 +1,23 @@
+#### @name login
+POST http://localhost:8080/api/auth/register
+content-type: application/json
+
+{
+    "givenName": "hieu8",
+    "userName": "dat11",
+    "surName": "Đậu",
+    "emailAddress": "d1@gmail.com",
+    "password": "123",
+    "sex": "nam",
+    "dateOfBirth": "2008-09-05"
+}
+
+#### @name login
+GET http://localhost:8080/api/v1/home
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyNTY3IiwiaWF0IjoxNjkwMTA5MDQ4LCJleHAiOjE2OTA3MTM4NDh9.H0c5NKqhz-flvAiYcSKqf9-KfeHJR2JhDNCSfabY7k8
+
+#### @name login
+POST http://localhost:8080/api/auth/logout
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXRkdDQiLCJpYXQiOjE2OTAxOTI0NTksImV4cCI6MTY5MDc5NzI1OX0.p1qUvPFanmWrIYhsmiZ7FXiv98RnT69wUFTwse6uocQ

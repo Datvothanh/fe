@@ -1,0 +1,8 @@
+.Main-UserInfo-Container{
+    height: 100%;
+    width: 90%;
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: 1rem 1rem 1rem 1rem lightgray;
+    border-radius: 0.5rem;
+}
